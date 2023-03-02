@@ -1,0 +1,182 @@
+
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+
+}
+/* nav bar metrics */
+
+.header{
+    position: top;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10px;
+    background:black;
+    text-align: center;
+    padding:1rem 0; 
+    padding-bottom: 1rem;
+}
+
+.header .navbar {
+    text-align: right;
+    font-size: 1rem;
+    margin:0 5rem;
+    color:var(--white);
+}
+.header .navbar a{
+    text-align: center;
+    font-size: 1rem;
+    margin:0 5rem;
+}
+ .navbar a {
+font: green;
+    color: #19D743;
+ }
+
+/*----Split Screen-disc in middile Metrics---*/
+
+#container{
+min-height: 100vh;
+display: flex;
+}
+
+.left {
+width: 50vw;
+min-height: 100%;
+background-color: black;  
+position: relative;
+}
+
+.right {
+    width: 50vw;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+
+.logo-disc {
+        width: 16em; height: 16em;
+        position: absolute;
+        top: 50%;
+        right:-8em;
+        transform: translateY(-50%);
+        }
+
+        img {
+            width: 32em; height: 32em;
+            position: absolute;
+            top: 30%;
+            right:-5.32em;
+            font-size: .75rem;
+            transform: translateY(-60%);
+            transition: all .03 ease 0s;
+            
+        }
+        img:hover {
+            width: 32em; height: 32em;
+            position: absolute;
+            top: 30%;
+            right:-8em;
+            transform: translateY(-50%);
+            font-size: .80rem;
+            cursor: pointer;
+            transition: all .03 ease 0s;
+            
+        }
+
+        .name{
+            width: 20em; height: 32em;
+            top: 95%;
+            position: absolute;
+            transform: translateX(-1.47%);
+            font-family: 'Island Moments', cursive;
+            box-shadow: rgb(0, 0, 0,.2);
+            padding: 5rem 3rem 5rem 2rem;
+            font-size: 2.5rem;
+        }
+
+        .contact {
+            width: 20em; height: 32em;
+            top: 90%;
+            font-size: 20px;
+            color: black;
+            list-style: none;
+            position: absolute;
+            transform: translateX(40%);
+            box-shadow: rgb(0, 0, 0,.2);
+            padding: 10rem 5rem 0rem 10rem;
+        
+        }
+
+
+        
+
+        .about {
+            font-size: 20px;
+            width: 20em; height: 32em;
+            top: 90%;
+            color: white;
+            position: absolute;
+            transform: translateX(-85%);
+            list-style: none;
+            box-shadow: rgb(0, 0, 0,.2);
+            padding: 10rem 5rem 0rem 10rem;
+        }
+
+
+        
+/*----Text alinks---*/
+
+span {font-size: 90px;
+    color: #19D743;
+    display:inline-block;
+}
+
+.span1 {
+    font-size: 15px;
+    color: black;
+    display:flex;
+   justify-content: right;
+   padding: 2rem 3rem 0rem 2rem;
+  
+}
+.span2 {
+    font-size: 15px;
+    color: #19D743;
+    display:flex;
+    padding: 2rem 3rem 0rem 2rem;
+}
+
+
+/*footer*/
+.footer{
+    position: top;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10px;
+    background:black;
+    text-align: center;
+    padding:1rem 0; 
+    padding-bottom: 1rem;
+}
+
+.footer .content{
+    text-align: left;
+    font-size: 1rem;
+    margin:0 5rem;
+    color:var(--white);
+}
+.footer .content a{
+    text-align: center;
+    font-size: 1rem;
+    margin:0 5rem;
+}
+ .content a {
+font: green;
+    color: #19D743;
+ }
+
